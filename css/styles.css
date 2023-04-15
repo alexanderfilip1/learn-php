@@ -1,0 +1,46 @@
+* {margin: 0; padding: 0;}
+
+body {
+    text-decoration: none;
+}
+
+.hello {
+    text-align: center;
+    font-size: 22px;
+}
+
+.hello a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    word-spacing: 2px;
+}
+
+header {
+    padding: 25px;
+    background-color: orangered;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+header .all_header .logo {
+    text-align: left;
+    margin-left: 20px;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+header .all_header ul {
+    display: flex;
+    gap: 25px;
+
+}
+
+header .all_header ul a {
+    text-decoration: none;
+    font-size: 18px;
+}
